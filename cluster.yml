@@ -10,9 +10,9 @@ nodes:
   - etcd
   hostname_override: localhost
   user: ubuntu
-  docker_socket: /var/run/docker.sock
+  #docker_socket: /var/run/docker.sock
   ssh_key: ""
-  ssh_key_path: ~/.ssh/id_rsa_rancher
+  #ssh_key_path: ~/.ssh/id_rsa_rancher
   ssh_cert: ""
   ssh_cert_path: ""
   labels: {}
